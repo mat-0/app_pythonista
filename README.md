@@ -7,7 +7,7 @@
     C = 5
     while C != 0:
         print(c)
-	      c -=1
+        c -=1
 		
 > ^c terminates loops 
 
