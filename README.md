@@ -2,6 +2,14 @@
 
 > some basic commands
 
+### basics
+
+    a = c
+    print(a)
+
+    1 + 7
+    >>>8
+
 ### while
 
     C = 5
