@@ -28,4 +28,4 @@
     else:
     	print("false")
 
-> elif is pythong for else if, obvs
+> elif is python for else if, obvs
