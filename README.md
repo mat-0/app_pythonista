@@ -27,3 +27,5 @@
     	print("smoked")
     else:
     	print("false")
+
+> elif is pythong for else if, obvs
