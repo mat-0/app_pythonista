@@ -25,11 +25,3 @@ class Square(Polygon):
 
     def draw(self):
         super().draw()
-
-# square = Square()
-# square.draw()
-# turtle.done()
-
-hexagon = Polygon(6, "hexagon", color="pink")
-hexagon.draw()
-turtle.done()
