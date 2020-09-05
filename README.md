@@ -1,10 +1,10 @@
-## Python
+# Python
 
 > some basic commands
 
 > exit REPL cmd D
 
-### basics
+## basics
 
     'this is a string'
     "this is a string"
