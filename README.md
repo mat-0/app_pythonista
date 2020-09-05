@@ -11,8 +11,8 @@
     'this is not"
     "first" "second"
     >>> "firstsecond"
-    
-    """this is 
+
+    """this is
        a multiline string
     >>> this is \na multiline string
 
