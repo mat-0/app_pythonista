@@ -1,7 +1,7 @@
 import random
 
-min = 1
-max = 11
+const min = 1
+const max = 11
 
 number = random.randint(min,max)
 game = True
