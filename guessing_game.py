@@ -1,15 +1,18 @@
 import random
 
-number = random.randint(1,11)
+min = 1
+max = 11
+
+number = random.randint(min,max)
 game = True
 tries = 0
 
 while game:
-    question = input("Pick an number between 1 and 10 ")
+    question = input(f"Pick an number between {min} and {max-1} ")
     tries += 1
     try:
         answer = int(question)
-        if 1<  answer > 10:
+        if  min <  answer > (max-1):
             print("out of range")
         elif answer == number:
             print(f"you got it! It took {tries} guesses")
