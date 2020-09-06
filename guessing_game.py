@@ -1,19 +1,19 @@
 import random
 
 const min = 1
-const max = 11
+const max = 10
 
-number = random.randint(min,max)
+number = random.randint(min,max+1)
 game = True
 tries = 0
 
 while game:
-    question = input(f"Pick an number between {min} and {max-1} ")
+    question = input(f"Pick an number between {min} and {max} ")
     tries += 1
     try:
         answer = int(question)
-        if  min <  answer > (max-1):
-            print("out of range")
+        if  min <  answer > max:
+            print("out of range! please try again")
         elif answer == number:
             print(f"you got it! It took {tries} guesses")
             game = False
