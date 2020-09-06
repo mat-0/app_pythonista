@@ -2,15 +2,17 @@ import random
 
 number = random.randint(1,11)
 game = True
+tries = 0
 
 while game:
     question = input("Pick an number between 1 and 10 ")
+    tries += 1
     try:
         answer = int(question)
-        if answer < 1 or answer > 10:
+        if 1<  answer > 10:
             print("out of range")
         elif answer == number:
-            print("you got it!")
+            print(f"you got it! It took {tries} guesses")
             game = False
         elif answer < number:
             print("Your number is too low")
@@ -20,4 +22,4 @@ while game:
         print("that is not a number")
         continue
 
-print("The number that was: ", number)
+print(f"The number that was: {number}")
