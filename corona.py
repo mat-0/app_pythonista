@@ -32,5 +32,5 @@ def get_covid_data(num_days):
 
 # output
 if __name__ == "__main__":
-    string_output = get_covid_data(50)
+    string_output = get_covid_data(100)
     print(string_output)
