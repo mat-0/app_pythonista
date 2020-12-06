@@ -6,4 +6,4 @@ from polygon import Polygon
 
 shape = Polygon(6, "hexagon", color="pink")
 shape.draw()
-turtle.done()
+
