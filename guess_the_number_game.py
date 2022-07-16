@@ -1,21 +1,25 @@
+"""
+Guess the number game.
+"""
+
 import random
 
 MIN_VALUE = 1
 MAX_VALUE = 10
-number = random.randint(MIN_VALUE,MAX_VALUE)
-game = True
-tries = 0
+number = random.randint(MIN_VALUE, MAX_VALUE)
+GAME = True
+TRIES = 0
 
-while game:
+while GAME:
     question = input(f"Pick an number between {MIN_VALUE} and {MAX_VALUE} ")
-    tries += 1
+    TRIES += 1
     try:
         answer = int(question)
-        if  MIN_VALUE <  answer > MAX_VALUE:
+        if MIN_VALUE < answer > MAX_VALUE:
             print("out of range! please try again")
         elif answer == number:
-            print(f"you got it! It took {tries} guesses")
-            game = False
+            print(f"you got it! It took {TRIES} guesses")
+            GAME = False
         elif answer < number:
             print("Your number is too low")
         elif answer > number:
@@ -25,3 +29,5 @@ while game:
         continue
 
 print(f"The number that was: {number}")
+print("Thanks for playing!")
+print("Goodbye!")
