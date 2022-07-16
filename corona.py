@@ -19,18 +19,12 @@ def get_covid_data(num_days):
     string_builder = ""
     data = response.json()['data'][:num_days]
     for i in range(0, num_days):
-        string_builder += (f"\n• {0 if data[i]['newCases'] == None else data[i]['newCases']} new cases & "
-        f"{0 if data[i]['deaths'] == None else data[i]['deaths']} deaths ")
-        if i == 0:
-            string_builder += "today"
-        elif i == 1:
-            string_builder += "yesterday"
-        else:
-            string_builder += f"on {data[i]['date']}"
+        string_builder += (f"\n• {0 if data[i]['newCases'] == None else data[i]['newCases']} ")
+        string_builder += f"new cases on {data[i]['date']}"
     return string_builder
 
 
 # output
 if __name__ == "__main__":
-    string_output = get_covid_data(100)
+    string_output = get_covid_data(25)
     print(string_output)
