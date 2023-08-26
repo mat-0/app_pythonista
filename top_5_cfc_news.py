@@ -24,7 +24,7 @@ def convert_cfc_date(input_d: str) -> str:
 
 if __name__ == "__main__":
 
-    URL = "http://app.thechels.uk/tocfcws.xml"
+    URL = "[source xml]"
     entries = fetch_cfc_entries(URL)[:5]
     OUTPUT = "".join([
         f"- {entry['title']} - ({entry['published']})\n" for entry in entries
