@@ -1,5 +1,5 @@
 """
-Gets the random word and definition of the day from the Wordsmith RSS feed
+Gets the random word of the day and its definition from the Wordsmith RSS feed
 """
 import re
 
