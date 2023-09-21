@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Retrieve and print words from a URL.
+
+
+"""
+Retrieve and print words from a given URL
+"""
+
 
 Usage:
 
