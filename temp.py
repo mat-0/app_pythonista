@@ -1,3 +1,5 @@
+''' draw some shapes'''
+
 from polygon import Polygon
 
 # square = Square()
