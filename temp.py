@@ -1,4 +1,6 @@
-''' draw some shapes'''
+""" 
+draw some shapes using Polygon
+"""
 
 from polygon import Polygon
 
