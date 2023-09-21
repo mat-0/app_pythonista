@@ -1,3 +1,7 @@
+"""
+Draw some shapes using Turtle OOP
+"""
+
 import turtle
 
 class Polygon:
