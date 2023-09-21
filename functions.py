@@ -1,3 +1,7 @@
+"""
+Helper functions
+"""
+
 # Replacer function
 def replace_chunk(content, marker, chunk):
     replacer = re.compile(
