@@ -1,7 +1,9 @@
 """
 Get the latest 10 days of covid data from the uk GOV API
 for a given city defaulted to Cheltenham.
+V1 of the API, now broken
 """
+
 import os
 import pathlib
 
