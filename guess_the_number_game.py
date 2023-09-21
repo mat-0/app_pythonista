@@ -1,5 +1,5 @@
 """
-Guess the number game.
+Guess the number game between two given values
 """
 
 import random
